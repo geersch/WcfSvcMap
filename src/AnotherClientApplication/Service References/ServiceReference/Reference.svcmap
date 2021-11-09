@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e22cfc9e-f20d-4dd7-81d6-1a2663ea0318" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8732/WithdrawalService/mex" Protocol="mex" SourceId="1" />
+    <MetadataSource Address="http://localhost:8733/DepositService/mex" Protocol="mex" SourceId="2" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="4cfd06dd-fcd3-406f-b2bd-503bf429b212" SourceId="1" SourceUrl="http://localhost:8732/WithdrawalService/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="104dbb1d-ae72-4926-9d4d-b485a6df87e1" SourceId="1" SourceUrl="http://localhost:8732/WithdrawalService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="eeecd403-09d8-4c40-bb20-2844e25bf854" SourceId="1" SourceUrl="http://localhost:8732/WithdrawalService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="772463a9-f47a-423d-9262-cf8c60754df9" SourceId="1" SourceUrl="http://localhost:8732/WithdrawalService/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="856d5379-5089-4a39-8889-eb140a71bae3" SourceId="1" SourceUrl="http://localhost:8732/WithdrawalService/mex" />
+    <MetadataFile FileName="service2.wsdl" MetadataType="Wsdl" ID="cd654b67-eb93-4796-8a9f-e3ed2f79a39b" SourceId="2" SourceUrl="http://localhost:8733/DepositService/mex" />
+    <MetadataFile FileName="service21.wsdl" MetadataType="Wsdl" ID="80cd2af0-19f1-426a-b550-609b4313017c" SourceId="2" SourceUrl="http://localhost:8733/DepositService/mex" />
+    <MetadataFile FileName="service3.xsd" MetadataType="Schema" ID="4b187153-4e76-448c-ae11-997aa6671f7d" SourceId="2" SourceUrl="http://localhost:8733/DepositService/mex" />
+    <MetadataFile FileName="service31.xsd" MetadataType="Schema" ID="5cde4389-a5fe-4940-b44b-57f1566435e1" SourceId="2" SourceUrl="http://localhost:8733/DepositService/mex" />
+    <MetadataFile FileName="service32.xsd" MetadataType="Schema" ID="6404be9e-5855-4132-8547-26906a7773b2" SourceId="2" SourceUrl="http://localhost:8733/DepositService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

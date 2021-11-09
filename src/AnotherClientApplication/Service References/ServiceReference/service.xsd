@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://cgeers.com/services/atm/" elementFormDefault="qualified" targetNamespace="http://cgeers.com/services/atm/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://cgeers.com/services/atm/common/types/" />
+  <xs:element name="Withdraw">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cardNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="securityCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://cgeers.com/services/atm/common/types/" minOccurs="0" name="amount" nillable="true" type="q1:Money" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WithdrawResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WithdrawResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
